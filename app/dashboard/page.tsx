@@ -1,4 +1,4 @@
-import KpiCard from "@/components/kpi-card";
+import KpiCard from "../../components/kpi-card";
 import { formatCurrency, formatPercent, getCeoDashboard, getComercialDashboard, getFinanceiroDashboard } from "@/services/api";
 
 export default async function DashboardPage() {
