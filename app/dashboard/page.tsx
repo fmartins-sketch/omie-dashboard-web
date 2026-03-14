@@ -1,6 +1,5 @@
 import KpiCard from "@/components/kpi-card";
 import { formatCurrency, formatPercent, getCeoDashboard, getComercialDashboard, getFinanceiroDashboard } from "@/services/api";
-import { getCeoDashboard } from "@/services/api";
 
 export default async function DashboardPage() {
   const [ceo, financeiro, comercial] = await Promise.all([
